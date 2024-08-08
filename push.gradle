@@ -5,7 +5,7 @@ allprojects {
         mavenCentral();
         jcenter();
         maven {
-            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+            url 'https://maven.aliyun.com/nexus/content/repositories/releases/'
         }
         // 配置HMS Core SDK的Maven仓地址。
         maven {
@@ -15,20 +15,20 @@ allprojects {
 }
 dependencies {
     // 移动推送
-    compile 'com.aliyun.ams:alicloud-android-push:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-push:3.7.6'
 
     // 辅助通道
-    compile 'com.aliyun.ams:alicloud-android-third-push:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push:3.7.6'
     //华为依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-huawei:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-huawei:3.7.6'
     //小米依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-xiaomi:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-xiaomi:3.7.6'
     //OPPO依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-oppo:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-oppo:3.7.6'
     //vivo依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-vivo:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-vivo:3.7.6'
     //魅族依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-meizu:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-meizu:3.7.6'
     //谷歌依赖
-    compile 'com.aliyun.ams:alicloud-android-third-push-fcm:3.7.6'
+    implementation 'com.aliyun.ams:alicloud-android-third-push-fcm:3.7.6'
 }
