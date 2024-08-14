@@ -24,6 +24,8 @@
     <preference name="MEIZU_KEY" default=" "/>
     <preference name="OPPO_KEY" default=" "/>
     <preference name="OPPO_SECRET" default=" "/>
+    <preference name="GCM_SENDID" default=" "/>
+    <preference name="GCM_APPID" default=" "/>
     <preference name="APP_KEY" />
     <preference name="APP_SECRET" />
     <platform name="ios">
@@ -61,6 +63,8 @@
             <preference name="MEIZU_KEY" value="\$MEIZU_KEY"/>
             <preference name="OPPO_KEY" value="\$OPPO_KEY"/>
             <preference name="OPPO_SECRET" value="\$OPPO_SECRET"/>
+            <preference name="GCM_SENDID" value="\$GCM_SENDID"/>
+            <preference name="GCM_APPID" value="\$GCM_APPID"/>
         </config-file>
 
         <hook type="after_plugin_install" src="scripts/afterPluginInstall.js"/>
