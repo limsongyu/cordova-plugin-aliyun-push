@@ -25,9 +25,7 @@
         "APP_KEY": "31759259",
         "APP_SECRET": "bb9a04b90dd1ac06080f72605d3a5195",
         "MI_ID": "2882303761518768806",
-        "MI_KEY": "5881876864806",
-        "GCM_SENDID": " ",
-        "GCM_APPID": " "
+        "MI_KEY": "5881876864806"
       },
       "cordova-plugin-whitelist": {}
     },
