@@ -83,7 +83,7 @@ public class AliPushPlugin extends CordovaPlugin {
                 MeizuRegister.register(applicationContext, MEIZUId, MEIZUKey);
                 OppoRegister.register(applicationContext, OPPOKey, OPPOSecret);
                 VivoRegister.register(applicationContext);
-                GcmRegister.register(applicationContext, GCMSendId, GCMAppId);
+                GcmRegister.register(applicationContext, GCMSendId, GCMAppId, GCMProjectId, GCMApiKey);
                 SharedPreferences sharedPreferences = applicationContext.getSharedPreferences("aliNotiMsg", Context.MODE_PRIVATE);
                 String json = sharedPreferences.getString("msg", "");
                 PluginResult result;
