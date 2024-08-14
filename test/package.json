@@ -27,7 +27,9 @@
         "MI_ID": "2882303761518768806",
         "MI_KEY": "5881876864806",
         "GCM_SENDID": " ",
-        "GCM_APPID": " "
+        "GCM_APPID": " ",
+        "GCM_PROJECTID": " ",
+        "GCM_APIKEY": " "
       },
       "cordova-plugin-whitelist": {}
     },

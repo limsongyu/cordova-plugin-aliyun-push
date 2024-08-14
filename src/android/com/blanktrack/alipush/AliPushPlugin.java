@@ -76,6 +76,8 @@ public class AliPushPlugin extends CordovaPlugin {
                 String OPPOSecret = preferences.getString("OPPO_SECRET", "");
                 String GCMSendId = preferences.getString("GCM_SENDID", "");
                 String GCMAppId = preferences.getString("GCM_APPID", "");
+                String GCMProjectId = preferences.getString("GCM_PROJECTID", "");
+                String GCMApiKey = preferences.getString("GCM_APIKEY", "");
                 MiPushRegister.register(applicationContext, MIId, MIKey);
                 HuaWeiRegister.register(cordova.getActivity().getApplication());
                 MeizuRegister.register(applicationContext, MEIZUId, MEIZUKey);

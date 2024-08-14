@@ -26,6 +26,8 @@
     <preference name="OPPO_SECRET" default=" "/>
     <preference name="GCM_SENDID" default=" "/>
     <preference name="GCM_APPID" default=" "/>
+    <preference name="GCM_PROJECTID" default=" "/>
+    <preference name="GCM_APIKEY" default=" "/>
     <preference name="APP_KEY" />
     <preference name="APP_SECRET" />
     <platform name="ios">
