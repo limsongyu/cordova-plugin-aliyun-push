@@ -67,6 +67,8 @@
             <preference name="OPPO_SECRET" value="\$OPPO_SECRET"/>
             <preference name="GCM_SENDID" value="\$GCM_SENDID"/>
             <preference name="GCM_APPID" value="\$GCM_APPID"/>
+            <preference name="GCM_PROJECTID" value="\$GCM_PROJECTID"/>
+            <preference name="GCM_APIKEY" value="\$GCM_APIKEY"/>
         </config-file>
 
         <hook type="after_plugin_install" src="scripts/afterPluginInstall.js"/>
